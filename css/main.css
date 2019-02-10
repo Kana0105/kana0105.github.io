@@ -34,8 +34,8 @@ html, body {
 
 /*---------------------------Photographer----------------------------*/
 .photographer img{
-  width: 200px;
-  margin: 20px;
+  width: 35vmin;
+  margin: 50px;
 }
 .photo_info{
   padding: 50px;
