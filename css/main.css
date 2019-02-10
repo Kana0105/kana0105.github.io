@@ -1,0 +1,98 @@
+html, body { 
+  height: 100%;
+  font-family: "Noto Sans JP";
+ }
+
+.top{
+    background-image: url(../img/top.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #464646;
+    height: 100%;
+}
+
+.top-title{
+  font-size: 100px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.navbar{
+  background-color: transparent !important;
+}
+
+/*-----------------------------------pages-------------------------------*/
+.sub-title{
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+/*Top*/
+
+/*---------------------------Photographer----------------------------*/
+.photographer img{
+  width: 200px;
+  margin: 20px;
+}
+.photo_info{
+  padding: 50px;
+}
+.contents_yoshi {
+  background-color: #deffc8;
+  color: rgb(0, 0, 0);
+  padding-bottom: 150px;
+}
+.contents_kana {
+  background-color: #ffd1b6;
+  color: rgb(0, 0, 0);
+  padding-bottom: 150px;
+}
+.contents_yoshi:after {
+  background: url("../svg/separate1.svg");
+  content: "";
+  background-repeat: no-repeat;
+  display: block;
+  height: 150px;
+  position: absolute;
+  width: 100%;
+}
+.contents_kana:after {
+  background: url("../svg/separate2.svg");
+  content: "";
+  background-repeat: no-repeat;
+  display: block;
+  height: 150px;
+  position: absolute;
+  width: 100%;
+}
+
+/*-------------------------service--------------------------------*/
+.work img{
+  width: 100%;
+}
+.gallery{
+  margin-top: 60px; 
+}
+.gallery-top{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 5%;
+  padding-bottom: 0; 
+}
+.gallery figure img {
+	opacity: 1;
+	-webkit-transition: .2s ease-in-out;
+	transition: .2s ease-in-out;
+}
+.gallery figure:hover img {
+	opacity: .5;
+}
+.service-1 .service{
+  position: relative;
+  margin-bottom: 50px; 
+}
+
+/*---------------------------------contact------------------------------*/
