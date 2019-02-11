@@ -14,8 +14,9 @@ html, body {
 }
 
 .top-title{
-  font-size: 100px;
+  font-size: 10vmin;
   text-align: center;
+  margin-top: 35vmin;
   font-family: 'Dancing Script', cursive;
 }
 
@@ -25,53 +26,26 @@ html, body {
 
 /*-----------------------------------pages-------------------------------*/
 .sub-title{
-  font-size: 80px;
+  font-size: 10vmin;
   text-align: center;
   font-family: 'Dancing Script', cursive;
 }
 
 /*Top*/
 
-/*---------------------------Photographer----------------------------*/
-.photographer img{
-  width: 35vmin;
-  margin: 50px;
+/*---------------------------About----------------------------*/
+.about img{
+  width: 25vmin;
+  margin: 5vmin;
 }
 .photo_info{
-  padding: 50px;
-}
-.contents_yoshi {
-  background-color: #deffc8;
-  color: rgb(0, 0, 0);
-  padding-bottom: 150px;
-}
-.contents_kana {
-  background-color: #ffd1b6;
-  color: rgb(0, 0, 0);
-  padding-bottom: 150px;
-}
-.contents_yoshi:after {
-  background: url("../svg/separate1.svg");
-  content: "";
-  background-repeat: no-repeat;
-  display: block;
-  height: 150px;
-  position: absolute;
-  width: 100%;
-}
-.contents_kana:after {
-  background: url("../svg/separate2.svg");
-  content: "";
-  background-repeat: no-repeat;
-  display: block;
-  height: 150px;
-  position: absolute;
-  width: 100%;
+  padding: 5vmin;
 }
 
-/*-------------------------service--------------------------------*/
+
+/*-------------------------work--------------------------------*/
 .work img{
-  width: 100%;
+  width: 20vmin;
 }
 .gallery{
   margin-top: 60px; 
